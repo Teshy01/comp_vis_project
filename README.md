@@ -91,8 +91,11 @@ Your datasets directory should now look like this:
 
 datasets
 -> UECFOOD100_YOLO
+
    -> images
+   
    -> labels
+   
    - data.yaml
 
 4. Run the rest of the blocks from YOLOv8_Program.ipynb to train
