@@ -88,15 +88,15 @@ Your folder structure should look like below where:
 1. After you have created the 'datasets' directory, you need to run the first 4 cell blocks of YOLOv8_Program.ipynb to preprocess the data. Do this only once.
 2. Drag the preprocessed data (including its UECFOOD100 directory) into the datasets directory so that it fits the ultralytics YOLO format for reading and training models.
 Your datasets directory should now look like this:
-> datasets
 
-   > UECFOOD100_YOLO
-      > images
-      > labels
-      - data.yaml
+datasets
+-> UECFOOD100_YOLO
+   -> images
+   -> labels
+   - data.yaml
 
-3. Run the rest of the blocks from YOLOv8_Program.ipynb to train
-4. For Real Time Inference, uncomment the last cell block. Given that you have a camera on your device, you may run it.
+4. Run the rest of the blocks from YOLOv8_Program.ipynb to train
+5. For Real Time Inference, uncomment the last cell block. Given that you have a camera on your device, you may run it.
 
 ----------------------------------------
 -SECTION 6 - How To Run YOLOv11 Program-
