@@ -73,6 +73,8 @@ Your folder structure should look like below where:
 -----------Root Directory ----------
 - YOLOv8_Program.ipynb
 
+- train_YOLOv8_model.py
+
 > datasets (create this directory manually)
 
 > UECFOOD100 downloaded dataset
@@ -92,8 +94,11 @@ Your datasets directory should now look like this:
 > datasets
 -> UECFOOD100_YOLO -> images, -> labels, - data.yaml
    
-4. Run the rest of the blocks from YOLOv8_Program.ipynb to train
-5. For Real Time Inference, uncomment the last cell block. Given that you have a camera on your device, you may run it.
+4. run train_YOLOv8_model.py to train
+5. After you've trained, in the cell block marked "Run Baseline Model" for YOLOv8_Program.ipynb, change the path of the model to your own path to trained model
+6. Do the same for the next cell block (change the path to your desired path)
+7. Run the rest of the blocks from YOLOv8_Program.ipynb to evaluate and predict
+8. For Real Time Inference, uncomment the last cell block. Given that you have a camera on your device, you may run it.
 
 ----------------------------------------
 -SECTION 6 - How To Run YOLOv11 Program-
