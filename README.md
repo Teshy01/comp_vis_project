@@ -91,13 +91,8 @@ Your datasets directory should now look like this:
 
 datasets
 
--> UECFOOD100_YOLO
-
-   -> images
+-> UECFOOD100_YOLO -> images, -> labels, - data.yaml
    
-   -> labels
-   
-   - data.yaml
 
 4. Run the rest of the blocks from YOLOv8_Program.ipynb to train
 5. For Real Time Inference, uncomment the last cell block. Given that you have a camera on your device, you may run it.
