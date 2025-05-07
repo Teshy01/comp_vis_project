@@ -90,6 +90,7 @@ Your folder structure should look like below where:
 Your datasets directory should now look like this:
 
 datasets
+
 -> UECFOOD100_YOLO
 
    -> images
