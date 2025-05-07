@@ -90,12 +90,9 @@ Your folder structure should look like below where:
 Your datasets directory should now look like this:
 > datasets
 
-   UECFOOD100_YOLO
-
-      images
-      
-      labels
-      
+   > UECFOOD100_YOLO
+      > images
+      > labels
       - data.yaml
 
 3. Run the rest of the blocks from YOLOv8_Program.ipynb to train
