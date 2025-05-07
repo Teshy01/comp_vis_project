@@ -71,13 +71,15 @@ Your folder structure should look like below where:
 '-' represents files within the directory
 
 -----------Root Directory ----------
-
-> datasets (create this directory manually)
-> UECFOOD100 downloaded dataset
-> ultralytics
-> runs (create this directory manually)
 - YOLOv8_Program.ipynb
 
+> datasets (create this directory manually)
+
+> UECFOOD100 downloaded dataset
+
+> ultralytics
+
+> runs (create this directory manually)
 ------------------------------------
 
 ---------------------------------------
