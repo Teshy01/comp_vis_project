@@ -89,7 +89,7 @@ Your folder structure should look like below where:
 2. Drag the preprocessed data (including its UECFOOD100 directory) into the datasets directory so that it fits the ultralytics YOLO format for reading and training models.
 Your datasets directory should now look like this:
 
-datasets
+> datasets
 -> UECFOOD100_YOLO -> images, -> labels, - data.yaml
    
 
